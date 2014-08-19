@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Productivity Calculator</title>  
+	<!-- Included CSS Files (Uncompressed) -->
+	<!--
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	-->  
+	<!-- Included CSS Files (Compressed) -->
+	<link rel="stylesheet" href="stylesheets/foundation.min.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+<div class="row">
+	<div class="twelve columns">
+		<h1>Productivity Calculator</h1>
+		<form name = "productivity-form">
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<label for="tx-time">Tx minutes</label>
+				</div>
+				<div class = "six columns mobile-two">	
+					<input type="text" id="tx-time" name="tx-time"/>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<label for="clockIn">Clock in</label>
+				</div>
+				<div class = "six columns mobile-two">	
+					<input type="text" id="clockIn" name="clockIn"/>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<label for="lunch-out">Lunch out</label>
+				</div>
+				<div class = "six columns mobile-two">	
+					<input type="text" id="lunch-out" name="lunch-out"/>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<label for="lunchIn">Lunch in</label>
+				</div>
+				<div class = "six columns mobile-two">	
+					<input type="text" id="lunchIn" name="lunchIn"/>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<label for="clock-out">Clock out</label>
+				</div>
+				<div class = "six columns mobile-two">	
+					<input type="text" id="clock-out" name="clock-out"/>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<label for="productivity-input">Productivity</label>
+				</div>
+				<div class = "six columns mobile-two">	
+					<input type="text" id="productivity-input" name="productivity-input"/>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<a href = "#"><p style = "font-size: 16px;" class = "get" id="get-clock" onclick="getClockOut()">Get Clock Out</p></a>
+				</div>
+				<div class = "six columns mobile-two">
+					<p class = "result" id = "get-clock-out"></p>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<a href = "#"><p style = "font-size: 16px;" class = "get" id="get-productivity" onclick="getProductivity()">Get Productivity</p></a>
+				</div>
+				<div class = "six columns mobile-two">
+					<p class = "result" id = "get-productivity-out"></p>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "six columns mobile-two">
+					<p class="left"><a href = "how-to.html">Instructions</a></p>
+				</div>			
+				<div class = "six columns mobile-two">
+					<p id="clear-form" onclick="reloadPage()"><a href = "#">Clear Form</a></p>
+				</div>
+		</form>
+	</div>
+</div>
+<!-- Included JS Files (Compressed) -->
+<script src="javascripts/foundation.min.js"></script>
+
+<!-- Initialize JS Plugins -->
+<script src="javascripts/app.js"></script>
+<script src="javascripts/jan.js"></script>
+
+  
+</body>
+</html>

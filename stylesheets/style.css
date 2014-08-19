@@ -1,0 +1,106 @@
+body {
+	background: #afa1fc;
+	background: #333;
+	background: url(../images/moulin.png);
+	}
+a, a:active, a:focus {
+	color: #1e0d82;
+	color: #fff;
+	}
+a:hover {
+	color: #ddd;
+	}
+a:hover p {
+	background: #5444cf;
+	}
+#clear-form a, .left a, .right a {
+	color: #34c31d;
+	}
+#clear-form a:hover, .left a:hover, .right a:hover {
+	color: #97e48b;
+	}
+
+h1 {
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	color: #7262f4;
+	/*text-shadow: 2px 2px 6px rgba(0,0,0,0.6);*/
+	clear: both;
+	margin: 20px 0;
+	}
+.blue {
+	color: #7262f4;
+	}
+form {
+	padding: 0 5px;
+	margin: 0 auto;
+	max-width: 360px;
+	}
+label {
+	padding: 3px 6px;
+	text-align: right;
+	vertical-align: top;
+	color: #97e48b;
+	}
+input, select, button {
+	font-size: 100%;
+	}
+input[type="text"] {
+	font-size: 20px;
+	text-align: center;
+	}
+label {
+	font-size: 20px;
+	}
+.right {
+	text-align: right;
+	}
+.left {
+	text-align: left;
+	}
+#clear-form {
+	text-align: right;
+	}
+.result {
+	text-align: center;
+	border: 1px solid #907FF0;
+	border: 1px solid #999;
+	height: 36px;
+	background: #c7c0f2;
+	background: #d0d6e2;
+	background: #bbb;
+	color: #000;
+	border-radius: 3px;
+	padding-top: 1px;
+	font-size: 20px;
+	}
+p {
+	margin-bottom: 12px;
+	color: #fff;
+}
+.get {
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	background: #7262f4;
+	/*background: #F1F1F1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#DADADA), to(#F4F4F4));
+	background: -webkit-linear-gradient(top, #DADADA, #F4F4F4);
+	background: -moz-linear-gradient(top, #DADADA, #F4F4F4);
+	background: -ms-linear-gradient(top, #DADADA, #F4F4F4);
+	background: -o-linear-gradient(top, #DADADA, #F4F4F4);*/
+	}
+@media only screen and (max-width: 400px) {
+	h1 {margin: 5px 0 12px;}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+	p {font-size: 18px;}
+}

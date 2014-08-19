@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Productivity Calculator</title>  
+	<!-- Included CSS Files (Uncompressed) -->
+	<!--
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	-->  
+	<!-- Included CSS Files (Compressed) -->
+	<link rel="stylesheet" href="stylesheets/foundation.min.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+<div class="row">
+	<div class="six columns centered">
+		<h1>Instructions</h1>
+		<p class = "big-text"><span class = "blue">Tx minutes:</span>  &nbsp;Scheduled treatment time in minutes &mdash; i.e. enter 480 if you have 8 hours of treatment time on your schedule.</p>
+		<p class = "big-text"><span class = "blue">Time inputs:</span>  &nbsp;enter clock time with a colon, as in 8:00. Use a normal 12 hour system &mdash; i.e. 1:00 should be entered for one in the afternoon. You must input a Clock in time.</p>
+		<p class = "big-text"><span class = "blue">Lunch inputs:</span>  &nbsp;Either fill in both, or leave both blank.</p>
+		<p class = "big-text"><span class = "blue">Productivity:</span>  &nbsp;Enter your productivity goal in percent &mdash; enter only a number <strong>without</strong> the % symbol, i.e. 90 for ninety percent</p>
+		<p class = "big-text"><span class = "blue">Get Clock Out:</span>  &nbsp;Be sure to enter a Productivity in order to calculate this.</p>
+		<p class = "big-text"><span class = "blue">Get Productivity:</span>  &nbsp;Be sure to enter a Clock out in order to calculate this.</p>
+		<p class = "big-text"><span class = "blue">Making changes:</span>  &nbsp;No need to reload the page &mdash; you can type in a new number, then click the Get Productivity or Get Clock Out button again. You can clear the form for a completely fresh start.</p>
+	</div>	
+</div>
+<div class="row">
+	<div class="three columns offset-by-three mobile-two">
+		<p class= "left"><a href = "index.html">&larr; Back</a></p>
+	</div>
+	<div class="three columns mobile-two end">
+		<p class = "right"><a href = "http://janmilosh.com" title = "Go to janmilosh.com">by Jan Milosh</a></p>
+	</div>
+</div>
+<!-- Included JS Files (Compressed) -->
+<script src="javascripts/foundation.min.js"></script>
+
+<!-- Initialize JS Plugins -->
+<script src="javascripts/app.js"></script>
+<script src="javascripts/jan.js"></script>
+
+  
+</body>
+</html>
